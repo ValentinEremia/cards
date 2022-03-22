@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <!--========== pt PWA start==========-->
+    <meta name="theme-color" content="#0c0c0f" />
+    <link rel="manifest" href="manifest.json" crossorigin="use-credentials" />
+    <link rel="apple-touch-icon" href="./maskable_icon_x192.png" />
+    <meta charset="UTF-8" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover ,user-scalable=no"
+    />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./maskable_icon_x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./maskable_icon_x192.png"
+    />
+    <link rel="icon" type="image/x-icon" href="./maskable_icon_x512.png" />
+
+    <script type="module">
+      document.documentElement.classList.remove("no-js");
+      document.documentElement.classList.add("js");
+    </script>
+    <!--=========== pt PWA end===========-->
+    <link rel="stylesheet" href="./style.css">
+    <title>Expainding Cards</title>
+</head>
+<body>
+    <div class="container">
+         <div class="panel " style="background-image: url(./images/belgium.jpg);"><h3>belgium</h3></div>
+         <div class="panel " style="background-image: url(./images/france.jpg);"><h3>france</h3></div>
+         <div class="panel " style="background-image: url(./images/italy.jpg);"><h3>italy</h3></div>
+         <div class="panel active " style="background-image: url(./images/romania.jpg);"><h3>romania</h3></div>
+         <div class="panel " style="background-image: url(./images/norwey.jpg);"><h3>norwey</h3></div>
+         <div class="panel " style="background-image: url(./images/japan.jpg);"><h3>japan</h3></div>
+         <div class="panel " style="background-image: url(./images/Switzerland.jpg);"><h3>switzerland</h3></div>
+
+    </div>
+
+    <script src="./app.js"></script>
+    <!--pt. pwa -->
+    <script src="./index.js"></script>
+</body>
+</html>
